@@ -28,14 +28,6 @@ INC DPTR
 MOV A,B
 MOVX @DPTR,A
 END
-
-
-
-
-
-
-
-
 ```
 
 ## OUTPUT
@@ -62,9 +54,6 @@ To write and execute an Assembly language program for finding the cube of a give
 
 ## PROGRAM
 ```
-
-
-
 ORG 00H
 MOV DPTR, #4500H
 MOVX A,@DPTR
@@ -79,10 +68,6 @@ INC DPTR
 MOV A,B
 MOVX @DPTR,A
 END
-
-
-
-
 ```
 
 
